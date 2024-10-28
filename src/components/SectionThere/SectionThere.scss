@@ -1,0 +1,59 @@
+.card_one {
+  border-radius: 40px;
+  background: rgb(241, 226, 193);
+  padding: 32px;
+  width: 483px;
+  height: 224px;
+  margin-left:-25px;
+
+  p {
+    color: rgb(11, 36, 65);
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 359px;
+    margin-top: 24px;
+  }
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.imgs_wrapper_room {
+  margin-top: -190px;
+  margin-left: -25px;
+}
+
+.card_two {
+  border-radius: 40px;
+  background: rgb(216, 219, 251);
+  padding: 30px;
+  width: 685px;
+  height: 255px;
+  margin-top: 10px;
+
+  p {
+   
+    color: rgb(11, 36, 65);
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px; 
+    width: 380px;
+  }
+}
+
+.grid_container_two{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}

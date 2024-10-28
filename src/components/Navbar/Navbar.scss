@@ -1,0 +1,152 @@
+header{
+  position:sticky;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo_btn_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.btn_wrapper {
+  button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 28px;
+    border-radius: 16px;
+    background: rgb(234, 244, 255);
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: rgb(33, 137, 255);
+    color: white;
+    transition: 0.3s;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.nav_ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+
+  a{
+ text-decoration: none;
+ color: rgb(11, 36, 65);
+ font-family: "Manrope";
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ letter-spacing: 0%;
+ text-align: center;
+  }
+
+  a:hover {
+    color: rgb(33, 137, 255);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select_and_btn_wrapper {
+  display: flex;
+  gap: 28px;
+
+  .custom-select {
+    position: relative;
+    display: inline-block;
+  }
+
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    margin-top:10px;
+  }
+
+  select {
+    padding: 8px 36px 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    border: 2px solid rgba(0, 123, 255, 0.2);
+    border-radius: 12px;
+    background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    position: relative;
+  }
+
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+  .custom-select::after {
+    content: "▼";
+    font-size: 12px;
+    color: #007bff;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .custom-select::after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #007bff;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .btn_call {
+    border-radius: 16px;
+    background: rgb(234, 244, 255);
+    padding: 16px 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(33, 137, 255);
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn_call:hover {
+    background: rgb(33, 137, 255);
+    color: white;
+    transition: 0.3s;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+}
